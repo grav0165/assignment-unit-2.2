@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called "name" and set it to the string 'Dane'
+// We check if the name variable is set to 'Mary', however since our variable is set to Dane, it moves to the else condition.
+// We console.log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable secret but do not assign a value. 
+// We make a variable code and set to number 123.
+// We then check if code is equal to exactly 123 and since it is currently, you set the variable secret to the string 'super'
+// then set the code variable to 246. We then console.log the word 'super'.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set the variable isStudent to true (boolean), variable age to number 34, and variable zip to number 55407.
+// We then check if isStudent is true as well as if the zip is greater than 80,000, which it is not, and moves onto the next.
+// We check if isStudent is false OR if the age is less than 30, which we do not meet, and moves to the next again.
+// We then check if the iStudent is true, and since it is, we return the console.log of 'Welcome to Prime!'
 
 //CODE
 /*
@@ -133,7 +133,7 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+// FIX - add colorTwo = 'purple' within the conditional statement underneath colorOne
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,7 +146,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// FIX - time variable is one that is likely to change, given that it is the variable most likely to measure. 
+// So time should be a 'let' variable.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -156,10 +157,13 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+
 /*
 let age = 21;
 const minAge = 21;
-
+// FIX -- fix to if(age >= minAge) as the description is checking age against minAge (rather than checking minAge against age)
+// Since age is equal to minAge (21), we woul then need to change to console.log('enter').
+// Afterward the else conditional would be changed to console.log('no entry')
 if(minAge <= age) {
   console.log('no entry');
 } else {
