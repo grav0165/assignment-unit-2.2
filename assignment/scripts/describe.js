@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a variable called "name" and set it to the string 'Dane'
-// We check if the name variable is set to 'Mary', however since our variable is set to Dane, it moves to the else condition.
+// We check if the name variable is set to the string 'Mary', however since our variable is set to Dane, it moves to the else condition.
 // We console.log 'How do you do?'
 //
 
