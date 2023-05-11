@@ -70,8 +70,8 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We set the variable isStudent to true (boolean), variable age to number 34, and variable zip to number 55407.
-// We then check if isStudent is true as well as if the zip is greater than 80,000, which it is not, and moves onto the next.
+// We set the variable isStudent to true as a boolean, variable age to 34 as a number, and variable zip to 55407 as a number as well.
+// We then check if isStudent is true as well as if the zip is greater than 80000, which it is not, and moves onto the next.
 // We check if isStudent is false OR if the age is less than 30, which we do not meet, and moves to the next again.
 // We then check if the iStudent is true, and since it is, we return the console.log of 'Welcome to Prime!'
 
