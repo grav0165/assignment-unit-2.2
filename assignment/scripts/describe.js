@@ -161,9 +161,12 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-// FIX -- fix to if(age >= minAge) as the description is checking age against minAge (rather than checking minAge against age)
-// Since age is equal to minAge (21), we woul then need to change to console.log('enter').
-// Afterward the else conditional would be changed to console.log('no entry')
+// FIX -- minor fixfix to if(age >= minAge) as the description is checking age against minAge (rather than checking minAge against age).
+// this change isn't required as minAge <= age is looking at the same type of check, but may make better logical sense from another
+// programmers review logic of the intended purpose.
+// The larger fix is changing the if conditional to be console.log('enter') and the else to be console.log('no entry').
+// The if conditional is looking to see if the () conditoinal is true, which in this case it is. We would want to return 'enter' 
+// as the conditional is met. However, currently the conditional would return 'no entry', which is not the intended purpose.
 if(minAge <= age) {
   console.log('no entry');
 } else {
