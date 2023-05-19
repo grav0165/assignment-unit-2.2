@@ -148,8 +148,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-// FIX - time variable is one that is likely to change, given that it is the variable most likely to measure. 
-// So time should be a 'let' variable.
+// FIX - The conditional is asking if the temp variable and time variable are set to specific values
+// However the conditional is currently checking either temp OR time are set to those values.
+// Changing it to an and comparison (&&) fixes the statement
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
