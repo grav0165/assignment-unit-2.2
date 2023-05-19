@@ -47,8 +47,9 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We make a variable secret but do not assign a value. 
 // We make a variable code and set to 123 as a number.
-// We then check if code is explicitly equal to 123 and since it is currently, you set the variable secret to the string 'super'
-// then set the code to 246 as a number. We then console.log the word 'super'.
+// We then check if code is explicitly equal to 123 and since it is currently, 
+// you set the variable secret to the string 'super'
+// then multiple 123 by 2 which equals 246. We then console.log the word 'super'.
 
 //CODE
 /*
